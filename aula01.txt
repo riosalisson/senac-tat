@@ -86,6 +86,19 @@ Terceira etapa: Instalação de Software
 				sudo apt install git vim python2 python3
 				#DESAFIO: WPS OFFICE (DEB)
 						  KDENLIVE (APPIMAGE)
-						  
-					
-					
+
+
+PESQUISA:
+https://sempreupdate.com.br/como-executar-arquivo-appimage-no-linux/
+O lado positivo do AppImage é que você não precisa instalar o aplicativo, basta executá-lo a partir de um pacote binário. Mas como isso é feito? Na verdade, é bem simples e você verá o porquê. Existem dois métodos. O primeiro passo é baixar o arquivo AppImage em questão. Este arquivo terminará na extensão .AppImage. Faça o download desse arquivo para o seu /home, por exemplo. Abra uma janela de terminal e mude para o diretório Downloads com o comando cd:
+
+Terminal
+cd ~/DownloadsCopiar
+ Agora você deve dar ao arquivo baixado recentemente as permissões necessárias com o comando:
+
+Terminal
+chmod u+x arquivo.AppImageCopiar
+Esse aplicativo agora pode ser executado com o comando:
+
+Terminal
+./archive.AppImage
