@@ -1,0 +1,207 @@
+Terminal: Bash / Shell Script
+Shell Script = comando
+Bash = interpretador de comandos
+$ = usuário comum; sudo -i / su
+# = super usuário
+======================================
+Comandos de manipulação de diretórios
+ls = listar arquivos ou diretórios
+ls -lh = listar detalhado
+ls -lha = litar detalhado , inclusive pastas e arquivos ocultos
+Branco = arquivo texto
+Azul = diretórios
+verde claro = link simbólico
+marca texto verde = perigo
+cd = mudar diretórios /
+pwd = exibe qual diretório vc está
+cd - = retorna diretório anterior
+cd ~ = voltar diretório pessoal
+cd / = raiz
+cd .. = descer um nível
+history - mostrar histórico de comandos
+! = executa o comando da linha de referência
+mkdir = criar diretórios
+mkdir -v = verboso
+Ajuda de comandos
+    --help
+    man
+rm = remover arquivos ou diretórios
+    -f = forçar
+    -v = verboso
+    -R = recursivo
+================================================================
+    1  /usr/bin/hollywood 
+    2  sudo
+    3  clear
+    4  sudo apt
+    5  sudo apt up
+    6  sudo apt update
+    7  sudo apt upgrade 
+    8  sudo apt full-upgrade
+    9  sudo apt dist-upgrade 
+   10  sudo apt autoremove
+   11  sudo apt autoclean
+   12  sudo apt clean
+   13  history
+   14  sudo apt up
+   15  history
+   16  sudo apt update
+   17  sudo apt install hollywood 
+   18  hollywood 
+   19  exit
+   20  sudo poweroff
+   21  sudo apt update
+   22  sudo apt upgrade
+   23  sudo apt update
+   24  sudo full-upgrade
+   25  sudo apt full-upgrade
+   26  sudo apt autoremove
+   27  sudo apt autoclean
+   28  sudo apt update
+   29  ls
+   30  sudo apt install kazam
+   31  ls
+   32  cl
+   33  sudo apt install git vim python2 python3
+   34  clear
+   35  sudo apt install git vim python2 python3
+   36  sudo apt install wps
+   37  sudo apt install wps.deb
+   38  sudo apt install wps office
+   39  sudo apt install wps-office_11.1.0.11704.XA_amd64.deb
+   40  sudo apt install wps-office
+   41  cd ~/Downloads
+   42  chmod u+x arquivo.AppImage
+   43  chmod u+x kdenlive-23.08.2-x86_64.AppImage
+   44  ./kdenlive-23.08.2-x86_64.AppImage
+   45  exit
+   46  shutdown -h now
+   47  sudo apt update
+   48  sudo apt upgrade
+   49  sudo apt full-update
+   50  sudo apt full-upgrade
+   51  vscode
+   52  vc code
+   53  vs code
+   54  id
+   55  sudo -i
+   56  su
+   57  -a
+   58  ls -a
+   59  ls -lha
+   60  cd
+   61  cd\
+   62  cd /
+   63  ls -lh
+   64  pwd
+   65  cd -
+   66  d -
+   67  cd -
+   68  ~
+   69  ls
+   70  cd ~
+   71  ls
+   72  cd Documentos/
+   73  cd /
+   74  cd home/
+   75  cd
+   76  cd /
+   77  cd home/
+   78  ls
+   79  cd ls
+   80  cd ~/Documentos/
+   81  cd ..
+   82  pwd
+   83  history
+   84  cd home/senac/Documentos
+   85  cd home/senac/Documentos/
+   86  cd
+   87  cd ~
+   88  cd /
+   89  cd home/senac/Documentos/
+   90  history
+   91  cd-
+   92  cd -
+   93  pwd
+   94  history
+   95  cd home/senac/Documentos/
+   96  mkdir senac
+   97  ls
+   98  mkdir senac
+   99  mkdir SENAC
+  100  mkdir -v tatuape zl zonaleste
+  101  del zl
+  102  ls
+  103  cd senac/
+  104  mkdir Alisson Andrew Arthur Bruno Caio
+  105  cd -
+  106  ls
+  107  rmdir zl
+  108  ls
+  109  rmdir zonaleste
+  110  ls
+  111  cd senac/
+  112  ls -lh
+  113  mkdir SENAC*Tatuapé
+  114  ls
+  115  cd ..
+  116  mkdir SENAC Tatuapé
+  117  mkdir -v SENAC Tatuapé
+  118  ls
+  119  cd senac/
+  120  ls
+  121  mkdir "SENAC Tatuapé"
+  122  ls
+  123  ls -lh
+  124  ls -lha
+  125  ls
+  126  mkdir -v 'SENAC Tatuapé'
+  127  ls -lh
+  128  cd SENAC\ Tatuapé/
+  129  cd -
+  130  cd SENAC\ Tatuapé/
+  131  CD -
+  132  cd -
+  133  mkdir -p tat/info tst est amd
+  134  ls -lha
+  135  cd tat/
+  136  ls
+  137  cd -
+  138  mkdir -p tat/info/tst/est/amd
+  139  ls
+  140  cd tat/
+  141  ls
+  142  cd -
+  143  mkdir -p tat/info tst/est/amd
+  144  ls
+  145  cd tat/
+  146  ls -lh
+  147  cd -
+  148  mkdir -p tat/info tst est amd
+  149  ls -lh
+  150  cd tat/
+  151  cd -
+  152  cd tat/
+  153  cd ~
+  154  cd Documentos/
+  155  cd senac/
+  156  cd ~
+  157  cd -
+  158  mkdir -p tat info/tst/est/amd
+  159  ls -lh
+  160  mkdir -p tat/info tst est amd
+  161  mkdir --help
+  162  mkdir -pv tat/info tat/tst tat/est tat/adm
+  163  cd ho
+  164  ls
+  165  cd Documentos/
+  166  ls
+  167  cd senac/
+  168  ls
+  169  rm - Rfv Alisson/ Andrew/ Arthur/ Bruno/ Caio/
+  170  ls
+  171  rm -Rfv Alisson/ Andrew/ Arthur/ Bruno/ Caio/
+  172  ls
+  173  exit
+  174  hitory
+  175  history
