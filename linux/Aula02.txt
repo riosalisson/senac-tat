@@ -3,6 +3,7 @@ Shell Script = comando
 Bash = interpretador de comandos
 $ = usuário comum; sudo -i / su
 # = super usuário
+shutdown -s = desligar
 ======================================
 Comandos de manipulação de diretórios
 ls = listar arquivos ou diretórios
