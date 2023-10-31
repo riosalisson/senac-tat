@@ -1,0 +1,36 @@
+Aula03 - 30/10/2023
+
+ 
+
+cd = mudar de diretórios
+ls = listar arquivos e diretorios
+mkdir = criar diretorios
+pwd = listar os diretorio atual
+rm = remover arquivos ou diretorios
+echo = imprimr na tela o conteúdo
+" " = preservar a msg
+cat = imprimi o conteudo do arquivo - sem precisar abrir ele. 
+touch = altera data e hora de um arquivo (caso não existe, cria um zerado)
+cat -n = numera a quantidade de linhas
+cp -v = copiar arquivo ou diretorio
+mv = mover arquivo ou diretrio (renomear)
+> = redirecionando a saída
+>> = redirecionador de saida, adicionando
+| = redirecionar a saída de um comando com a entrada de outro comando
+
+ 
+
+cat -n /etc/services = lista de menor p/ maior
+tac /etc/services = lista do maior p/ menor 
+less = modo de leitura (leitor de arquivo)
+head = (lista o arquivo cima/baixo)
+tail = (lista o arquivo baixo/cima)
+
+ 
+
+
+DESAFIO: listar conteudo de arquivoem: /etc/sevices das linhas 100 até 200, removendo as linhas 1 até 99 e 201 até 361 - linux
+
+ 
+
+COMANDO: cat -n etc/services | head -n 200 | tail -n 101 | less
